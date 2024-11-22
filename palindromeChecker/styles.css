@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #222222;
+    color: #ffffff;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .title {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    background-color: #375a7f;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-family:Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .palindrome-div {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: min(100vw, 450px);
+    border: 3px solid;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  label {
+    color: #0a0a23;
+    margin-bottom: 20px;
+  }
+  
+  .palindrome-btn {
+    width: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #222222;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .palindrome-input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #222222;
+  }
+  
+  .palindrome-input:focus {
+    border-bottom: 3px solid #222222;
+  }
+  
+  .palindrome-input::placeholder {
+    text-align: center;
+  }
+  
+  .user-input {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .results-div {
+    overflow-y: auto;
+    word-wrap: break-word;
+    min-height: 50px;
+    color: black;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .palindrome-definition-div {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-family:Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 140px;
+    background-color: #375a7f;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border: 3px solid;
+    padding: 20px;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .palindrome-definition {
+    vertical-align: middle;
+    text-align: center;
+  }
